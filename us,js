@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "913509422045846", // Facebook page ID
+            whatsapp: "+2(0122)656-0297", // WhatsApp number
+            viber: "+2(0122)656-0297", // Viber number
+            email: "msi.eldewik@gmail.com", // Email
+            sms: "+2-0122-656-0297", // Sms phone number
+            call: "+2-0122-656-0297",// Call phone number
+            company_logo_url: "//www.facebook.com/LimousineAlexINN01226560297/", //  
+URL of company logo (png, jpg, gif)
+            greeting_message: "للمراسلة يرجى ترك رسالتك او الاتصال بنا", // Text of greeting message
+            call_to_action: "إتصال الان", // Call to action
+            button_color: "#129BF4", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,sms,call,whatsapp,viber,email" // Order of buttons
+        };
+        var proto = document.location.protocol, host = "", url = proto +  
+"//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;  
+s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,  
+x);
+    })();
+</script>
